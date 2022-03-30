@@ -4,15 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>OpenWeatherMap Api</title>
+  <title>WorldCitiesWeather API</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <!-- <div class="main">
+<body> 
+<div class="main">
     <div class="header">
-      <h1>OpenWeatherMap API</h1>
-      <p>Enter any city name in the input box below to get the data</p>
-    </div> -->
+      <h1>World Cities Weather</h1>
+      <p>Enter any city name to recieve that cities weather!</p>
+ </div>
   
     <div class="input">
       <input type="text" placeholder="Enter the city" class="input_text">
@@ -24,10 +24,26 @@
     <div class="card">
       <h1 class="name" id="name"></h1>
       <p class="temp"></p>
-      <p class="clouds"></p>
       <p class="desc"></p>
+      <p class="feelLike"></p>
     </div>
   </div>
+  
+  
+  <div class="input2">
+    <input type="text" placeholder="Enter Review" class="input_review">
+    <input type="submit" value="Submit" class="submit2">
+  </div>
+
+  <div class="container">
+    <div class="card2">
+      <h1 class="name2" id="name2"></h1>
+      <ul class="review"></ul>
+    </div>
+  </div>
+  
+  
+  
 <script src="app.js"></script>
 </body>
 </html>

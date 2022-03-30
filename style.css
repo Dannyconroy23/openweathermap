@@ -9,6 +9,12 @@ body{
   background: #f8f8f8;
 }
 
+.header{
+  text-align: center;
+  padding: 15px 30px;
+
+}
+
 .input{
   text-align: center;
   margin: 100px auto;
@@ -16,7 +22,7 @@ body{
 
 input[type="submit"]{
   padding: 15px 30px;
-  background: #e7e7e7;
+  background: #6be2fd;
   border: none;
   border-radius: 1px;
   font-family: "Nunito",sans-serif;
@@ -58,6 +64,43 @@ input[type="submit"]{
 }
 
 .card p{
+  text-align: center;
+  margin:40px 0;
+  font-size:20px;
+}
+
+.input2{
+  text-align: center;
+  margin: 100px auto;
+  
+}
+
+.input2 input[type="text"]{
+  width: 600px;
+  height: 55px;
+  padding: 5px 10px;
+  background: #e7e7e7;
+  border: none;
+  border-radius: 1px;
+  font-family: "Nunito",sans-serif;
+  font-weight:bold;
+  font-size: 20px;
+}
+
+.card2{
+  width: 50%;
+  background: #e7e7e7;
+  height: 40vh;
+  margin: 50px auto;
+  border-radius: 2px;
+}
+
+.card2 h1{
+  padding: 5px 0;
+  text-align: center;
+}
+
+.card2 p{
   text-align: center;
   margin:40px 0;
   font-size:20px;
